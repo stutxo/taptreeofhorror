@@ -19,18 +19,7 @@ use miniscript::{
 use rand::RngCore;
 use serde::{Deserialize, Serialize};
 
-const PRIVS: [&str; 10] = [
-    "L4TANt6VEQPd1GPqUGVLoEZ4rGcX9sQaWHQAeRDZMNL9eRHNJbBg",
-    "L2PhkjVLApkqy4nC7KGtD23mAQf3RwM5k8XWa4R2LqnzQhL53BQC",
-    "L3cgVh1JN9oT6xV2vMhs1vQmr59bUUmHuCmye3bCfw2EzH88qaiC",
-    "L5PCnQnefmJTNDCJ78sweyo3dNWmqJhU8PiTxLcGgfta7i7k7s9k",
-    "KwnkoMYsCLhgvzX6kHA2YNn1AiZJvLjneFXUyzL5a5G4d831Uoy7",
-    "L4w56fCKFffXvScnmXf8DeU9YLkP2WhbqmAsSoUHpAE7JHRiwFYh",
-    "L46yHe5tuxHsmo3E4JrGTfFGcpSHanWKEsJRK1LWGwkrMxn5rU4Z",
-    "L4rs8P4fYYsS3PLr7Cax3fQzqVWowgnYFYGFvLQaKN8F29zidzYf",
-    "KzG6y7NjiGbZvPuArwnBgPPFxbDdzRmeVN5npL4i7qgZkbd9uYZ3",
-    "L31ohJLYwXsbSig4cNzkJGushTRfJLPDL9Ukavz1bhdYW5ZAJ6Zf",
-];
+const PRIVS: [&str; 10] = ["g", "g", "e", "z", "n", "o", "r", "e", ":)", "x)"];
 
 const SPENDING_ADDRESS: &str = "bc1qtyjhutpk3qhn7z5ucyuwygfgthg6d5zxxya3jy";
 
