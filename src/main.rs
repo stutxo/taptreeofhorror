@@ -132,8 +132,6 @@ async fn main() {
 
     let desc = Descriptor::<DefiniteDescriptorKey>::from_str(descriptor_string).unwrap();
 
-    // input.update_with_descriptor_unchecked(&desc).unwrap();
-
     psbt.inputs.push(input);
     psbt.outputs.push(psbt::Output::default());
 
