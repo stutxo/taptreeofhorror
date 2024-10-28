@@ -19,6 +19,18 @@ use miniscript::{
 use rand::RngCore;
 use serde::{Deserialize, Serialize};
 
+//     ccee88oo
+//   C8O8O8Q8PoOb o8oo
+//  dOB69QO8PdUOpugoO9bD
+// CgggbU8OU qOp qOdoUOdcb
+//     6OuU  /p u gcoUodpP
+//       \\\//  /douUP
+//         \\\////
+//          |||/\
+//          |||\/
+//          |||||
+//    .....//||||\....
+
 const PRIVS: [&str; 10] = ["g", "g", "e", "z", "n", "o", "r", "e", ":)", "x)"];
 
 const SPENDING_ADDRESS: &str = "bc1qtyjhutpk3qhn7z5ucyuwygfgthg6d5zxxya3jy";
